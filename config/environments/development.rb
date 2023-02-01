@@ -72,6 +72,7 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
   config.action_mailer.perform_deliveries = true
+  config.action_mailer.default_url_options = { host: 'localhost:3001' }
   config.action_mailer.delivery_method = :letter_opener_web
 
   # Uncomment if you wish to allow Action Cable access from any origin.
