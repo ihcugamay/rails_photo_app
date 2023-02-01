@@ -10,6 +10,7 @@ import 'channels';
 import 'jquery';
 import 'popper.js';
 import 'bootstrap';
+import '@fortawesome/fontawesome-free/js/all';
 import '../../assets/stylesheets/application';
 
 Rails.start();
