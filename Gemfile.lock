@@ -88,6 +88,10 @@ GEM
       responders
       warden (~> 1.2.3)
     devise-bootstrap-views (1.1.0)
+    dotenv (2.8.1)
+    dotenv-rails (2.8.1)
+      dotenv (= 2.8.1)
+      railties (>= 3.2)
     erubi (1.12.0)
     execjs (2.8.1)
     ffi (1.15.5)
@@ -214,6 +218,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.6.0-x86_64-linux)
+    stripe (8.1.0)
     thor (1.2.1)
     tilt (2.0.11)
     timeout (0.3.1)
@@ -260,6 +265,7 @@ DEPENDENCIES
   capybara (>= 3.26)
   devise
   devise-bootstrap-views
+  dotenv-rails
   jbuilder (~> 2.7)
   letter_opener_web
   listen (~> 3.3)
@@ -270,6 +276,7 @@ DEPENDENCIES
   selenium-webdriver (>= 4.0.0.rc1)
   spring
   sqlite3 (~> 1.4)
+  stripe
   turbolinks (~> 5)
   twitter-bootstrap-rails
   tzinfo-data
