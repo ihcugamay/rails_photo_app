@@ -22,6 +22,9 @@ gem 'twitter-bootstrap-rails'
 gem 'devise-bootstrap-views'
 gem 'stripe'
 gem 'dotenv-rails'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
